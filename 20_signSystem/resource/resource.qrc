@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>loginback.jpg</file>
+        <file>微信图片_20200209145357.jpg</file>
+        <file>sun_128px_1237206_easyicon.net.ico</file>
+        <file>gps_128px_1228463_easyicon.net.ico</file>
+        <file>cute_128px_1185893_easyicon.net.ico</file>
+    </qresource>
+</RCC>
