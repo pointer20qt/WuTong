@@ -26,14 +26,14 @@ public:
 
 	}
 
-	void wash()
+	 void wash()
 	{
-
+		cout  << "Ó¾³Ø" << endl;
 	}
 };
 
 
-class school :public Natatorium
+class school 
 {
 	std::string schoolName;
 	std::string schoolType;
@@ -75,12 +75,8 @@ public:
 	{
 		cout << this->schoolName << "¿ªÑ§ÁË" << endl;
 	}
-	void wash()
-	{
-		cout << "Ï´Ô¡" << endl;
-	}
-};
 
+};
 
 class University: public school
 {
@@ -106,15 +102,17 @@ public:
 void printSchool(school* school)
 {
 	school->schoolOpens();
-	school->wash();
 	delete school;
 }
 
 int main()
 {
+	principal*p=new principal("ÓÎÓ¾¹Ý");
+	p->wash();
 	school* ps = new school("´ºÌï»¨»¨Ó×¶ùÔ°", "Ó×¶ùÔ°", "´ºÌï");
 	University* u=new University();
 	printSchool(ps);
 	printSchool(u);
+	
 }
 
